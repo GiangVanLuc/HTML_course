@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Câu 1: Tạo form Đăng ký tài khoản</h2>
+    <p><strong>Yêu cầu</strong>: Tạo form <strong>Đăng ký tài khoản</strong> như bên dưới.</p>
+
+    <form>
+        <label for = "fullname">Họ tên:</label>
+        <br>
+        <input id = "fullname" name = "fullname" placeholder="Ví dụ: levana" required>
+        <br>
+        <label for = "email">Email:</label>
+        <br>
+        <input id = "email" name = "email" type="email" placeholder = "Ví dụ: levana@gamil.com" required>
+        <br>
+        <label for = "password">Mật khẩu:</label>
+        <br>
+        <input id = "password" name = "password" type="password" required>
+        <br> <br>
+        <input type = "submit" value = "Đăng ký">
+    </form>
+
+    <h2>Câu 2: Tạo form Đăng ký chi tiết</h2>
+    <p><strong>Yêu cầu</strong>: Tạo form <strong>Đăng ký chi tiết</strong> như bên dưới.</p>
+    <form>
+        <label for = "fullname">Họ tên:</label>
+        <br>
+        <input id = "fullname" name = "fullname" required>
+        <br>
+        <label for = "email">Email:</label>
+        <br>
+        <input id = "email" name = "email" type="email" required>
+        <br>
+        <label for = "password">Mật khẩu:</label>
+        <br>
+        <input id = "password" name = "password" type="password" required>
+        <br>
+        <label for = "confirm_password">Xác nhận mật khẩu:</label>
+        <br>
+        <input id = "confirm_password" name = "confirm_password" type="password">
+        <br>
+        <label>Giới tính:</label>
+        <br>
+        <input id = "nam" type="radio" name = "gioiTinh" value = "Nam">
+        <label for = "nam">Nam</label>
+        <br>
+        <input id = "nu" type="radio" name = "gioiTinh" value = "Nu">
+        <label for = "nu">Nữ</label>
+        <br>
+        <input id = "khac" type="radio" name = "gioiTinh" value = "Khac">
+        <label for = "khac">Khác</label>
+        <br>
+
+        <label for = "country">Quốc gia:</label>
+        <br>
+        <select id = "country" name = "quocGia" >
+            <option value = "Việt Nam">Việt Nam</option>
+            <option value = "Nhật Bản">Nhật Bản</option>
+            <option value = "Hàn Quốc">Hàn Quốc</option>
+        </select>
+        <br>
+        <br>
+        <input type = "submit" value = "Đăng ký">
+    </form>
+
+    <h2>Câu 3: Tạo form Đánh giá sản phẩm</h2>
+    <p><strong>Yêu cầu</strong>: Tạo form <strong>Đánh giá sản phẩm</strong> như bên dưới.</p>
+
+    <form>
+        <label for = "name_product"> Tên sản phẩm:</label>
+        <br>
+        <input id = "name_product" name = "name_product" required>
+        <br>
+        <label for = "ratting">Đánh giá:</label>
+        <br>
+        <input type="radio" name="ratting" value="5 sao" id="5sao">
+        <label for="1sao">5 sao</label>
+        <br>
+        <input type="radio" name="ratting" value="4 sao" id="4sao">
+        <label for="4sao">4 sao</label>
+        <br>
+        <input type="radio" name="ratting" value="3 sao" id="3sao">
+        <label for="3sao">3 sao</label>
+        <br>
+        <input type="radio" name="ratting" value="2 sao" id="2sao">
+        <label for="2sao">2 sao</label>
+        <br>
+        <input type="radio" name="ratting" value="1 sao" id="1sao">
+        <label for="1sao">1 sao</label>
+        <br>
+        <label for = "comment">Bình Luận:</label>
+        <br>
+        <textarea id = "comment" name = "comment" rows="4" cols="22" placeholder="Nhập bình luận của bạn"></textarea>
+        <br>
+        <br>
+        <input type = "submit" value = "Gửi đánh giá">
+    </form>
+
+    <h2>Câu 4: Tạo form Liên hệ</h2>
+    <p><strong>Yêu cầu</strong>: Tạo form <strong>Liên hệ</strong> như bên dưới.</p>
+
+    <form>
+        <label for = "fullname">Họ và tên:</label>
+        <br>
+        <input id = "fullname" name = "fullname" required>
+        <br>
+        <label for = "email">Email:</label>
+        <br>
+        <input id = "email" name = "email" type="email" required>
+        <br>
+        <label for = "message">Nội dung tin nhắn:</label>
+        <br>
+        <textarea id = "message" name = "message" rows="4" cols="22" placeholder="Nhập tin nhắn của bạn"></textarea>
+        <br>
+        <br>
+        <input type = "submit" value = "Gửi tin nhắn">
+    </form>
+
+    <h2>Câu 5: Tạo form Đặt phòng khách sạn</h2>
+    <p><strong>Yêu cầu</strong>: Tạo form <strong>Đặt phòng khách sạn</strong> như bên dưới.</p>
+    <form>
+        <label for = "fullname">Họ và tên:</label>
+        <br>
+        <input id = "fullname" name = "fullname" required>
+        <br>
+        <label for = "email">Email:</label>
+        <br>
+        <input id = "email" name = "email" type="email" required>
+        <br>
+        <label for = "checkin_date">Ngày nhận phòng:</label>
+        <br>
+        <input id = "checkin_date" name = "checkin_date" type="date" required>
+        <br>
+        <label for = "checkout_date">Ngày trả phòng:</label>
+        <br>
+        <input id = "checkout_date" name = "checkout_date" type="date" required>
+        <br>
+        <label for = "room_type">Loại phòng:</label>
+        <br>
+        <select id = "room_type" name = "room_type">
+            <option value="single_room">Phòng thường</option>
+            <option value="Vip_room">Phòng Vip</option>
+            <option value="Family_room">Phòng gia đình</option>
+        </select>
+        <br>
+        <label for = "special_requests">Yêu cầu đặc biệt:</label>
+        <br>
+        <textarea id = "special_requests" name = "special_requests" rows="4" cols="22" placeholder="Nhập yêu cầu của bạn"></textarea>
+        <br><br>
+        <input type = "submit" value = "Đặt phòng">
+    </form>
+
+    <h2>Câu 6: Tạo form Tìm Kiếm</h2>
+    <p><strong>Yêu cầu</strong>: Tạo form <strong>Tìm kiếm</strong> như bên dưới.</p>
+    <form>
+        <input name = "search_query" placeholder="Nhập từ khóa..." required>
+        <input type = "submit" value = "Tìm kiếm">  
+    </form>
+
+</body>
+</html>
