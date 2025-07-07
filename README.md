@@ -1,7 +1,5 @@
 These are folders about study HTML. 
 link bài tập của các buổi: \n
 https://frontend.daca.vn/lessons/lesson-1/index.html
-\n
 https://frontend.daca.vn/lessons/lesson-2/index.html
-\n
 https://frontend.daca.vn/lessons/lesson-3/index.html
